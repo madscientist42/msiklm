@@ -18,20 +18,28 @@ add it to one of your initscripts to do settings.  This supports most
 of the actual functionality via command line.  Here's the help for your
 reference:
 
+
+
 msiklm - MSI Keyboard Light Manager
+
 ###################################
+
 
 utility to configure the SteelSeries keyboard in MSI Gaming Notebooks - 
 possible arguments:
 
+
 help
     show this help
+
 
 test
     test if a compatible SteelSeries MSI Gaming Notebook is detected
 
+
 list
     list all found HID devices
+
 
 <color> OR <color_left,color_middle,color_right>
     set a respective color for all zones / for each zone at full brightness;
@@ -41,22 +49,22 @@ list
     the result will be the same as supplying it only once valid colors are: none, 
     off (equivalent to none), red, orange, yellow, green, sky, blue, purple, white
 
+
 <color> <brightness> OR <color_left,color_middle,color_right> <brightness>
     set the respective zone's color(s) at the specified brightness; valid brightnesses 
     are: low, medium, high remark: to disable the illumination, use off or none as 
     global color
 
+
 <color> <mode> OR <color_left,color_middle,color_right> <mode>
     sets the respective zone's color(s) and active the specified mode
     mode is one of the following effects: normal, gaming, breathe, demo, wave
 
+
 <color> <brightness> <mode> OR <color_left,color_middle,color_right> <brightness> <mode>
     simultaneously sets the respective zone's color(s) with a specified brightness and a mode
+
 
 <mode>
     only set a mode and keep the colors unchanged
 
-
-
-White's not as clean as one would want with this keyboard.  The backlight's fine, the underlight
-effects with it because of LED placement is...funky.  YMMV.
